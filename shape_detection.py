@@ -41,12 +41,12 @@ def angle(pt1, pt2, pt0):
     dy2 = pt2[0][1] - pt0[0][1]
     return (dx1 * dx2 + dy1 * dy2) / math.sqrt((dx1 * dx1 + dy1 * dy1) * (dx2 * dx2 + dy2 * dy2) + 1e-10)
 
-
+'''
 def setLabel(im, label, contour):
     fontface = cv2.FONT_HERSHEY_SIMPLEX
     scale = 0.4
     thickness = 1
-    # baseline = 0
+    baseline = 0
 
     text = cv2.getTextSize(label, fontface, scale, thickness)
     r = Rect()
@@ -54,9 +54,9 @@ def setLabel(im, label, contour):
 
     pt = Point(r.x + ((r.width - text.width) / 2), r.y + ((r.height + text.height) / 2))
     cv2.putText(im, label, fontface, scale, (0, 0, 0), thickness, 8)
+'''
 
-
-src = cv2.imread("box.jpg")
+src = cv2.imread("images/shps.jpg")
 
 blurred = cv2.GaussianBlur(src, (3, 3), 0)
 
