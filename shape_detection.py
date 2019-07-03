@@ -1,3 +1,11 @@
+##############################################################
+#
+#                Developed by Farid Huseynov
+#                     ITUNOM UAV Team
+#           All rights reserved © 2019 Farid Huseynov
+#
+##############################################################
+
 import cv2
 import math
 import numpy as np
