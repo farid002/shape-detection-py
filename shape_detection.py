@@ -2,7 +2,7 @@
 #
 #                Developed by Farid Huseynov
 #                     ITUNOM UAV Team
-#           All rights reserved © 2019 Farid Huseynov
+#                All rights reserved © 2019
 #
 ##############################################################
 
